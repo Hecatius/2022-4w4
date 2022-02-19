@@ -2,6 +2,23 @@
     font-family: $font__titre;
     background-color: $color__background-footer;
     padding: 15px;
+    &__info1{
+      display: flex;
+      justify-content: center;
+      .elem { // .site__footer__info1 .elem
+        width:20%;
+        border:1px solid #fff;
+        &__h2{// .site__footer__info1 .elem__h2
+          background-color: aqua;
+        }
+        &__h3{// .site__footer__info1 .elem__h3
+          background-color: yellow;
+        }
+        &__p{// .site__footer__info1 .elem__p
+          background-color: red;
+        }
+      }
+    }
 
     &__menu{ // .site__footer__menu
 
@@ -17,6 +34,16 @@
               padding : 3px;
               svg { // .site__footer__menu__ul .menu-item a svg
                 color: aqua;
+              }
+              &:hover {
+                svg {
+                  color : $color__link__footer-hover;
+                }
+              }
+              &:visited {
+                svg {
+                  color : $color__link__footer-visited;
+                }
               }
             }
           }
