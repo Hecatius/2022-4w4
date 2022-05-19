@@ -1009,6 +1009,23 @@ Navigation pour la page ctegorie.php bouton de categorie
 .menu-accueil-container .menu li, .menu-evenement-container .menu li, .menu-atelier-container .menu li {
   border-radius: 5%;
   background-color: #d6daff;
+  padding-bottom: 20px;
+}
+
+.menu-accueil-container .menu li .menu-item-icone, .menu-evenement-container .menu li .menu-item-icone, .menu-atelier-container .menu li .menu-item-icone {
+  position: relative;
+}
+
+.menu-accueil-container .menu li .menu-item-icone:after, .menu-evenement-container .menu li .menu-item-icone:after, .menu-atelier-container .menu li .menu-item-icone:after {
+  content: ".";
+  position: absolute;
+  width: 50px;
+  height: 5px;
+  top: 32px;
+  left: -10px;
+  color: rgba(255, 255, 255, 0);
+  background: rgba(128, 128, 128, 0.37);
+  border-radius: 50%;
 }
 
 .menu-accueil-container .menu .accueil__cours .menu-item-icone, .menu-evenement-container .menu .accueil__cours .menu-item-icone, .menu-atelier-container .menu .accueil__cours .menu-item-icone {
@@ -1057,14 +1074,7 @@ Navigation pour la page ctegorie.php bouton de categorie
 
 .menu-accueil-container .menu .atelier__html .menu-item-icone, .menu-evenement-container .menu .atelier__html .menu-item-icone, .menu-atelier-container .menu .atelier__html .menu-item-icone {
   background-image: url("https://s2.svgbox.net/files.svg?ic=html");
-}
-
-.menu-accueil-container .menu .atelier__html .menu-item-icone:after, .menu-evenement-container .menu .atelier__html .menu-item-icone:after, .menu-atelier-container .menu .atelier__html .menu-item-icone:after {
-  content: "";
-  width: 100px;
-  height: 100px;
-  background: red;
-  border-radius: 50%;
+  position: relative;
 }
 
 .menu-accueil-container .menu .menu-item, .menu-evenement-container .menu .menu-item, .menu-atelier-container .menu .menu-item {

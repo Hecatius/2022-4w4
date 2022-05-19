@@ -8,6 +8,22 @@
         li{
             border-radius: 5%;
             background-color: $color__background-header;
+            padding-bottom: 20px;
+            .menu-item-icone{
+                position: relative;
+                &:after{
+                    content: ".";
+                    position: absolute;
+                    width: 50px;
+                    height: 5px;
+                    top: 32px; //top right bottom left
+                    left: -10px;
+                    color: rgba(255, 255, 255, 0);
+                    background: rgba(128, 128, 128, 0.37);
+                    border-radius: 50%
+                
+                }
+            }
         }
         
         .accueil__cours .menu-item-icone{
@@ -46,13 +62,9 @@
         }
         .atelier__html .menu-item-icone{
             background-image: url("https://s2.svgbox.net/files.svg?ic=html");
-            &:after{
-                content: "";
-                width: 100px;
-                height: 100px;
-                background: red;
-                border-radius: 50%
-            }
+            position: relative;
+            
+            
         }
         .menu-item {
             //li
