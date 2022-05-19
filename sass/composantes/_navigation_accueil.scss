@@ -1,4 +1,4 @@
-.menu-accueil-container, .menu-evenement-container {
+.menu-accueil-container, .menu-evenement-container, .menu-atelier-container {
     // nav
     .menu {
         //ul
@@ -12,6 +12,7 @@
         
         .accueil__cours .menu-item-icone{
             background-image: url("https://s2.svgbox.net/hero-solid.svg?ic=academic-cap");
+            
         }
         .accueil__profs .menu-item-icone{
             background-image: url("https://s2.svgbox.net/hero-outline.svg?ic=briefcase");
@@ -33,6 +34,25 @@
         }
         .accueil__projet .menu-item-icone{
             background-image: url("https://s2.svgbox.net/hero-outline.svg?ic=presentation-chart-bar");
+        }
+        .atelier__css .menu-item-icone{
+            background-image: url("https://s2.svgbox.net/files.svg?ic=css");
+        }
+        .atelier__unity .menu-item-icone{
+            background-image: url("https://s2.svgbox.net/materialui.svg?ic=videogame_asset");
+        }
+        .atelier__wordpress .menu-item-icone{
+            background-image: url("https://s2.svgbox.net/social.svg?ic=wordpress");
+        }
+        .atelier__html .menu-item-icone{
+            background-image: url("https://s2.svgbox.net/files.svg?ic=html");
+            &:after{
+                content: "";
+                width: 100px;
+                height: 100px;
+                background: red;
+                border-radius: 50%
+            }
         }
         .menu-item {
             //li

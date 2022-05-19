@@ -13,22 +13,22 @@ Text Domain: cidw-4w4
 /* ---------------------------------------------------------
 ANIMATION
 --------------------------------------------------------- */
-.menu-accueil-container .menu .menu-item:nth-of-type(1), .menu-evenement-container .menu .menu-item:nth-of-type(1), .menu-atelier-container .menu .menu-item:nth-of-type(1) {
+.menu-accueil-container .menu .menu-item:nth-of-type(1), .menu-evenement-container .menu .menu-item:nth-of-type(1) {
   z-index: 5;
   animation: anim-entete 1s 0s forwards;
 }
 
-.menu-accueil-container .menu .menu-item:nth-of-type(2), .menu-evenement-container .menu .menu-item:nth-of-type(2), .menu-atelier-container .menu .menu-item:nth-of-type(2) {
+.menu-accueil-container .menu .menu-item:nth-of-type(2), .menu-evenement-container .menu .menu-item:nth-of-type(2) {
   z-index: 4;
   animation: anim-entete 1s .25s forwards;
 }
 
-.menu-accueil-container .menu .menu-item:nth-of-type(3), .menu-evenement-container .menu .menu-item:nth-of-type(3), .menu-atelier-container .menu .menu-item:nth-of-type(3) {
+.menu-accueil-container .menu .menu-item:nth-of-type(3), .menu-evenement-container .menu .menu-item:nth-of-type(3) {
   z-index: 3;
   animation: anim-entete 1s .50s forwards;
 }
 
-.menu-accueil-container .menu .menu-item:nth-of-type(4), .menu-evenement-container .menu .menu-item:nth-of-type(4), .menu-atelier-container .menu .menu-item:nth-of-type(4) {
+.menu-accueil-container .menu .menu-item:nth-of-type(4), .menu-evenement-container .menu .menu-item:nth-of-type(4) {
   z-index: 2;
   animation: anim-entete 1s .75s forwards;
 }
@@ -1000,74 +1000,50 @@ Navigation pour la page ctegorie.php bouton de categorie
   text-decoration: none;
 }
 
-.menu-accueil-container .menu, .menu-evenement-container .menu, .menu-atelier-container .menu {
+.menu-accueil-container .menu, .menu-evenement-container .menu {
   display: flex;
   justify-content: space-around;
   margin-top: 5%;
 }
 
-.menu-accueil-container .menu li, .menu-evenement-container .menu li, .menu-atelier-container .menu li {
+.menu-accueil-container .menu li, .menu-evenement-container .menu li {
   border-radius: 5%;
   background-color: #d6daff;
 }
 
-.menu-accueil-container .menu .accueil__cours .menu-item-icone, .menu-evenement-container .menu .accueil__cours .menu-item-icone, .menu-atelier-container .menu .accueil__cours .menu-item-icone {
+.menu-accueil-container .menu .accueil__cours .menu-item-icone, .menu-evenement-container .menu .accueil__cours .menu-item-icone {
   background-image: url("https://s2.svgbox.net/hero-solid.svg?ic=academic-cap");
 }
 
-.menu-accueil-container .menu .accueil__profs .menu-item-icone, .menu-evenement-container .menu .accueil__profs .menu-item-icone, .menu-atelier-container .menu .accueil__profs .menu-item-icone {
+.menu-accueil-container .menu .accueil__profs .menu-item-icone, .menu-evenement-container .menu .accueil__profs .menu-item-icone {
   background-image: url("https://s2.svgbox.net/hero-outline.svg?ic=briefcase");
 }
 
-.menu-accueil-container .menu .accueil__nouveaux .menu-item-icone, .menu-evenement-container .menu .accueil__nouveaux .menu-item-icone, .menu-atelier-container .menu .accueil__nouveaux .menu-item-icone {
+.menu-accueil-container .menu .accueil__nouveaux .menu-item-icone, .menu-evenement-container .menu .accueil__nouveaux .menu-item-icone {
   background-image: url("https://s2.svgbox.net/hero-outline.svg?ic=user-add");
 }
 
-.menu-accueil-container .menu .accueil__aide .menu-item-icone, .menu-evenement-container .menu .accueil__aide .menu-item-icone, .menu-atelier-container .menu .accueil__aide .menu-item-icone {
+.menu-accueil-container .menu .accueil__aide .menu-item-icone, .menu-evenement-container .menu .accueil__aide .menu-item-icone {
   background-image: url("https://s2.svgbox.net/hero-outline.svg?ic=book-open");
 }
 
-.menu-accueil-container .menu .accueil__porte__1 .menu-item-icone, .menu-evenement-container .menu .accueil__porte__1 .menu-item-icone, .menu-atelier-container .menu .accueil__porte__1 .menu-item-icone {
+.menu-accueil-container .menu .accueil__porte__1 .menu-item-icone, .menu-evenement-container .menu .accueil__porte__1 .menu-item-icone {
   background-image: url("https://s2.svgbox.net/hero-outline.svg?ic=lock-open");
 }
 
-.menu-accueil-container .menu .accueil__porte__2 .menu-item-icone, .menu-evenement-container .menu .accueil__porte__2 .menu-item-icone, .menu-atelier-container .menu .accueil__porte__2 .menu-item-icone {
+.menu-accueil-container .menu .accueil__porte__2 .menu-item-icone, .menu-evenement-container .menu .accueil__porte__2 .menu-item-icone {
   background-image: url("https://s2.svgbox.net/hero-outline.svg?ic=lock-open");
 }
 
-.menu-accueil-container .menu .accueil__journee .menu-item-icone, .menu-evenement-container .menu .accueil__journee .menu-item-icone, .menu-atelier-container .menu .accueil__journee .menu-item-icone {
+.menu-accueil-container .menu .accueil__journee .menu-item-icone, .menu-evenement-container .menu .accueil__journee .menu-item-icone {
   background-image: url("https://s2.svgbox.net/hero-outline.svg?ic=office-building");
 }
 
-.menu-accueil-container .menu .accueil__projet .menu-item-icone, .menu-evenement-container .menu .accueil__projet .menu-item-icone, .menu-atelier-container .menu .accueil__projet .menu-item-icone {
+.menu-accueil-container .menu .accueil__projet .menu-item-icone, .menu-evenement-container .menu .accueil__projet .menu-item-icone {
   background-image: url("https://s2.svgbox.net/hero-outline.svg?ic=presentation-chart-bar");
 }
 
-.menu-accueil-container .menu .atelier__css .menu-item-icone, .menu-evenement-container .menu .atelier__css .menu-item-icone, .menu-atelier-container .menu .atelier__css .menu-item-icone {
-  background-image: url("https://s2.svgbox.net/files.svg?ic=css");
-}
-
-.menu-accueil-container .menu .atelier__unity .menu-item-icone, .menu-evenement-container .menu .atelier__unity .menu-item-icone, .menu-atelier-container .menu .atelier__unity .menu-item-icone {
-  background-image: url("https://s2.svgbox.net/materialui.svg?ic=videogame_asset");
-}
-
-.menu-accueil-container .menu .atelier__wordpress .menu-item-icone, .menu-evenement-container .menu .atelier__wordpress .menu-item-icone, .menu-atelier-container .menu .atelier__wordpress .menu-item-icone {
-  background-image: url("https://s2.svgbox.net/social.svg?ic=wordpress");
-}
-
-.menu-accueil-container .menu .atelier__html .menu-item-icone, .menu-evenement-container .menu .atelier__html .menu-item-icone, .menu-atelier-container .menu .atelier__html .menu-item-icone {
-  background-image: url("https://s2.svgbox.net/files.svg?ic=html");
-}
-
-.menu-accueil-container .menu .atelier__html .menu-item-icone:after, .menu-evenement-container .menu .atelier__html .menu-item-icone:after, .menu-atelier-container .menu .atelier__html .menu-item-icone:after {
-  content: "";
-  width: 100px;
-  height: 100px;
-  background: red;
-  border-radius: 50%;
-}
-
-.menu-accueil-container .menu .menu-item, .menu-evenement-container .menu .menu-item, .menu-atelier-container .menu .menu-item {
+.menu-accueil-container .menu .menu-item, .menu-evenement-container .menu .menu-item {
   display: flex;
   flex-direction: column;
   flex: 0 0 20%;
@@ -1078,7 +1054,7 @@ Navigation pour la page ctegorie.php bouton de categorie
   opacity: 0;
 }
 
-.menu-accueil-container .menu .menu-item a, .menu-evenement-container .menu .menu-item a, .menu-atelier-container .menu .menu-item a {
+.menu-accueil-container .menu .menu-item a, .menu-evenement-container .menu .menu-item a {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1087,12 +1063,12 @@ Navigation pour la page ctegorie.php bouton de categorie
   font-size: clamp(1rem, 2.5vw, 2rem);
 }
 
-.menu-accueil-container .menu .menu-item a .menu-item-description, .menu-evenement-container .menu .menu-item a .menu-item-description, .menu-atelier-container .menu .menu-item a .menu-item-description {
+.menu-accueil-container .menu .menu-item a .menu-item-description, .menu-evenement-container .menu .menu-item a .menu-item-description {
   font-size: clamp(0.5rem, 1.5vw, 1.5rem);
   text-align: center;
 }
 
-.menu-accueil-container .menu .menu-item a .menu-item-icone, .menu-evenement-container .menu .menu-item a .menu-item-icone, .menu-atelier-container .menu .menu-item a .menu-item-icone {
+.menu-accueil-container .menu .menu-item a .menu-item-icone, .menu-evenement-container .menu .menu-item a .menu-item-icone {
   width: 2rem;
   height: 2rem;
   border: 1px solid #aaa;
