@@ -1214,6 +1214,14 @@ Navigation pour la page ctegorie.php bouton de categorie
   }
 }
 
+.atelier {
+  text-align: left;
+}
+
+.atelier h1, .atelier p {
+  margin-left: 50px;
+}
+
 /* ---------------------------------------------------------
 LAYOUT
 --------------------------------------------------------- */
