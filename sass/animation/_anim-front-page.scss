@@ -20,7 +20,24 @@
                         z-index: 2;
                         animation : anim-entete 1s .75s forwards; 
                         }
-                        
+                        .menu-item-icone{
+                                top: 10px;
+                        }
+                        &:hover{
+                                .menu-item-icone{
+                                        transition: 1s;
+                                        top: 0px;
+                                        
+                                        &:after{
+                                                transition: 1s;
+                                                width: 80px;
+                                                left: -25px;
+                                                top: 40px;
+                                                background: rgb(128, 128, 128);
+                                            
+                                    }
+                                }
+                        }
                 }
         }
 }

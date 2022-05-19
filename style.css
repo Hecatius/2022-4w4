@@ -33,6 +33,23 @@ ANIMATION
   animation: anim-entete 1s .75s forwards;
 }
 
+.menu-accueil-container .menu .menu-item .menu-item-icone, .menu-evenement-container .menu .menu-item .menu-item-icone, .menu-atelier-container .menu .menu-item .menu-item-icone {
+  top: 10px;
+}
+
+.menu-accueil-container .menu .menu-item:hover .menu-item-icone, .menu-evenement-container .menu .menu-item:hover .menu-item-icone, .menu-atelier-container .menu .menu-item:hover .menu-item-icone {
+  transition: 1s;
+  top: 0px;
+}
+
+.menu-accueil-container .menu .menu-item:hover .menu-item-icone:after, .menu-evenement-container .menu .menu-item:hover .menu-item-icone:after, .menu-atelier-container .menu .menu-item:hover .menu-item-icone:after {
+  transition: 1s;
+  width: 80px;
+  left: -25px;
+  top: 40px;
+  background: gray;
+}
+
 @keyframes anim-entete {
   0% {
     transform: translateX(-1000px);
